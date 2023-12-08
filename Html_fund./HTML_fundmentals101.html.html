@@ -1,0 +1,477 @@
+<!--                Yassin Ahmad Nasr                 
+
+                    yassiiin_jag5                  Discord
+                    yassinnasr_2004                Instqram
+-->
+
+<!DOCTYPE html>                     <!--belongs to HTML v5, and typing it sets page render from quirk to standard-->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title> Movies </title>
+        <meta name="description" content="this is HELL."/>          
+        
+        <!-- thats a comment -->
+        <!-- meta name=descprirtion is the text written beneath the link after searching for the page-->
+
+    </head>
+    <body>
+        welcome, lost kid.
+
+        <!--texts-->
+
+        <!--
+            h1 -> h6      h1=biggest    headers(text)
+        formatting elements
+            b -> bold
+            i -> italic
+            em -> emphasized
+            mark -> highlighted text
+            u -> underlined
+            q -> quote
+            small -> smaller text
+            del -> deleted text(appears with a line intersecting the text)
+            ins -> inserted text(same as del but the line is beneath the text)
+            sub -> subscript
+            sup -> superscript
+            span -> a tag to control a specific element(mainly in CSS)
+            hr -> horizontal line
+            blockquote
+            wbr -> acts as the <br> but with less space between the lines so the two lines are the same paragraph
+            bdi -> isolation so the words from diff languages display in a specific order       (rare)
+            code -> write a programming code
+            pre -> same as paragraph but consider every space, tab etc...           (pre formatted text)
+            iframe -> adds a page from another site
+        -->
+
+        <h1> the <em>gang</em> is what i trust </h1>
+        <h2> the gang is what i trust </h2>
+        <h3> the gang is what i trust </h3>
+        <h4> the gang is what i trust </h4>
+        <h5 hidden> the gang is what i trust </h5>
+        <h6> the gang is what i trust </h6>
+        <p> 
+            paragraph is a block <b>element</b> that takes a line, and a satisfying margin. <br> 
+            there are global attibutes and <strong>element</strong> attributes(that are specified to one element)<br>
+            and that's a <mark>marked word</mark><br>
+            <del>deleted text</del><br>
+            <ins>inserted text</ins><br>
+            H<sub>2</sub>O<br>
+            X<sup>2</sup>+2X+5=0
+        </p>
+        <blockquote>
+            there once was a ship that put to sea, the name of the ship was 'the billy o'tea
+        </blockquote>
+        <br>
+        <iframe src="https://www.imdb.com/title/tt8367814/?ref_=ext_shr_lnk" frameborder="1000px"></iframe>
+        <br>
+        <br>
+
+
+        
+        <!------------------------------------------------------------------------------------------------------------>
+
+        <!-- Links -->
+
+        <!--
+            (att): attribute
+            target(att)=_blank -> open in a new tab
+            title(att) -> the text which appears when the mouse is on the link
+
+            in 'href' an id can be written after a '#' means that the link will go to this part of the site
+        -->
+
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" title="never gonna give you up"> click HERE</a>
+        <a href="https://youtu.be/BnRJg7MLz4Q?si=Jrq1zxZ-h7rkAkhi" target="_blank" title="cold opens B99">don't click HERE</a>
+        <a href="mailto:yassinnasr2004@yahoo.com" title="send an email to yassin">contact yassin ahmad</a>         <!-- cat link to a mail -->
+        <br>
+
+
+
+        <!------------------------------------------------------------------------------------------------------------>
+
+        <!--images-->
+
+        <!--
+            src:-
+                the source can be a url
+                folder/ -> open folder
+                ../ -> get out of the current folder
+            the name can be written directly in the src if the image is in the same folder
+        -->
+
+        <img src="../../Downloads/140176.jpg" width="1000px">
+
+
+
+        <!------------------------------------------------------------------------------------------------------------>
+
+        <!--lists-->
+
+        <!-- 
+            ul -> unordered list
+            ol -> ordered list
+            li -> list item
+            dl -> description list              }--\
+            dt -> term                          }----   -rarely used-
+            dd -> description of the term       }--/
+            reversed(attribute) -> reverse the index not the elements
+            start(att) -> start pos in <ol>
+            type(att) -> type of index in <ol>
+            value(<li> att) -> index of the list item
+        -->
+
+        <h4>Family Guy</h4>
+        <ul>
+            <li>Brian</li>
+            <li>Peter</li>
+            <li>Lois</li>
+            <li>Stewie</li>
+            <ul>
+                <li>5 years old</li>
+                <li>genius</li>
+            </ul>
+        </ul>
+        <ol reversed type="I">
+            <li>three</li>
+            <li value="21">two</li>
+            <li>one</li>
+        </ol>
+        <br>
+        <br>
+        <dl>
+            <dt>The Da Vinci code</dt>
+            <dd>By Dan Brown</dd>
+            <dt>Death on the Nile</dt>
+            <dd>By Agatha Christie</dd>
+        </dl>
+
+
+
+        <!------------------------------------------------------------------------------------------------------------>
+
+        <!--tables-->
+
+        <!--
+            thead -> table head
+            tbody -> table body
+            tfoot -> table foot
+            tr -> table row
+            td -> table data cell
+            th -> table header cell
+            border(att) -> border                   CSS prefered
+            caption -> table title
+            colspan(<td> att) -> how many columns this cell will occupy
+        -->
+
+        <table>
+            <caption>table example</caption>
+            <thead>
+                <tr>
+                    <th> first head </th>
+                    <th> second head </th>
+                    <th> third head </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>r1c1</td>
+                    <td>r1c2</td>
+                    <td>r1c3</td>
+                </tr>
+                <tr>
+                    <td>r2c1</td>
+                    <td>r2c2</td>
+                    <td>r2c3</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">r3</td>
+                </tr>
+            </tfoot>
+        </table>
+        <br>
+
+
+
+        <!------------------------------------------------------------------------------------------------------------>
+
+        <!--Divs-->
+
+        <!--
+            works like a container for other elements to control all of them by specifing a class or an ID for them\
+            further options in CSS and JS
+
+            div -> division for other elements of divs
+        -->
+
+
+
+        <!------------------------------------------------------------------------------------------------------------>
+
+        <!--HTML entities-->
+
+        <!--
+            when you want to write something and the IDE confuses it for a tag
+            < : &lt;
+            > : &gt;
+            & : &amp;
+            'copyright sign' : &copy;
+            etc. search for 'HTML entities'
+        -->
+        <p>this is a p-tag: &lt;p&gt;</p>
+
+
+
+        <!------------------------------------------------------------------------------------------------------------>
+
+        <!--HTML semantics-->
+
+        <!--
+            semantic tags are used by browsers, so they can understand what's going on in your code, they're used instead of
+            divs as they serve the same purpose as containers but each one used for a specific part of the site
+            header -> head of the website
+            nav -> navigation bar
+            section -> maid body of the site
+            aside -> side bar
+
+            (They're not really essential you can achieve the same project without them)
+        -->
+
+
+
+        <!------------------------------------------------------------------------------------------------------------>
+
+        <!--Audio-->
+
+        <!--
+            type(<source> att) -> MIME type of the audio, can be accessed from searching in the browser 
+            controls(att) -> ability to control the audio from the browser(like play button)
+            autoplay(att) -> obviously, it plays the audio file once the page opens     (doesn't work in chrome and firefox, but in ms edge)
+            loop(att) -> plays again after the ending
+            when more than a source is written in the audio that means that the browser will look for the compatible one and use it  
+            any text written beneath the source will appear only if the browser doesn't support any of the audio files
+        -->
+
+        <audio autoplay controls>
+            <source src="../../Downloads/Corndogs in Santa Monica - The Great North Sound Society.mp3" type="audio/mpeg">
+            <source src="../../Downloads/Corndogs in Santa Monica - The Great North Sound Society.ogg" type="audio/ogg">
+            your browser is pathetic
+        </audio>
+
+
+
+        <!------------------------------------------------------------------------------------------------------------>
+
+        <!--Video-->
+
+        <!--
+            type(<source> att) -> MME tupe of the audio, can be accessed from searching in the browser 
+            controls(att) -> ability to control the audio from the browser
+            autoplay(att) -> obviously, it plays the audio file once the page opens     (doesn't work in chrome and firefox, but in ms edge)
+            loop(att) -> plays again after the ending
+            muted(att) -> mute the video
+            poster(att) -> the image that appears while the video is loading
+            track -> a tag that contains a caption file to the video 'captions.vtt' 
+            when more than a source is written in the audio that means that the browser will look for the compatible one and use it  
+            any text written beneath the source will appear only if the browser doesn't support any of the audio files
+        -->
+        
+        <video controls width="400px" poster="../../Downloads/1150694.jpg">
+            <source src="../../Downloads/1 Pulling from oven.mp4" type="video/mp4">
+            your browser is pathetic
+            <track src="captions.vtt" kind="subtitles" srclang="en" label="English">
+            <track src="captions2.vtt" kind="subtitles" srclang="ge" label="German">
+        </video>
+
+
+
+        <!------------------------------------------------------------------------------------------------------------>
+
+        <!--Form-->
+
+        <!--
+            input -> text input
+            type(<input> att) -> type of the input
+            required(<input> att) -> the input is required not optional
+            placeholder(<input> att) -> the text appears in the input region before typing an input
+            value(<input>att) -> gives a value to exist in the input region
+        the following are backend stuff:-
+            action -> its the name of the file the data are sent to
+            name(<input>att) -> name of the piece of data the input possess, acts as a variable
+            method(att) -> 'get'  : the data appears in the URL
+                           'post' : the data don't appear in the URL but they are sent  
+            readonly(<input>att) -> the given value to the input tag cannot be changed, but it gets sent to the server
+            disabled(<input>att) -> the given value to the input tag cannot be changed, and not sent to the server
+            autofocus(<input>att) -> focuses on the input without clicking on it
+            for(<label>att) -> attribute links the label to the input by the input's Id
+            select -> select between options
+            option -> the option in the select tag
+            multiple(<select>att) -> enables multiple selection
+            textarea
+            novalidate(att) -> makes all the inputs optional
+        -->
+
+        <hr>
+        <br>
+        <form method="post" target="_blank">
+            <div id="username_input">
+                <label>Username</label>
+                <input
+                 type="text" 
+                 placeholder="Username" 
+                 required name="Username" 
+                 value="msp_student306" 
+                 readonly
+                 />
+            </div>
+            <br>
+            <div id="email_input">
+                <label>Email</label>
+                <input
+                 type="email"
+                 placeholder="Email" 
+                 required name="Email" 
+                 value="yassinnasr2004@yahoo.com" 
+                 disabled
+                 />
+            </div>
+            <br>
+            <div id="password_input">
+                <label>Password</label>
+                <input
+                 type="password" 
+                 placeholder="Password" 
+                 required name="Password" 
+                 autofocus 
+                 minlength="8" 
+                 maxlength="26"
+                 />
+            </div>
+            <br>
+            <div id="birthdate_input">
+                <label>Birth date(optinoal)</label>
+                <input type="date">
+            </div>
+            <br>
+            <div>
+                <label>ِRange</label>
+                <input
+                 type="range" 
+                 min="0" 
+                 max="60" 
+                 step="6" 
+                 name="Ammo"
+                 />
+            </div>
+            <br>
+            <label>System</label>
+            <div id="system">
+                <input
+                 id="win" 
+                 type="radio" 
+                 name="os" 
+                 value="Windows" 
+                 checked
+                 />
+                <label for="win">Windows</label>
+                <br>
+                <input id="lin" type="radio" name="os" value="Linux">
+                <label for="lin">Linux</label>
+                <br>
+                <input 
+                 id="mac" 
+                 type="radio" 
+                 name="os" 
+                 value="Mac"
+                 />
+                <label for="mac">Mac</label>
+            </div>
+            <br>
+            <label>Languages</label>
+            <div id="languages">
+                <input
+                 id="python" 
+                 type="checkbox" 
+                 name="languages" 
+                 value="Python"
+                 />
+                <label for="python">Python</label>
+                <br>
+                <input 
+                 id="cpp" 
+                 type="checkbox" 
+                 name="languages" 
+                 value="C++"
+                 />
+                <label for="cpp">C++</label>
+                <br>
+                <input
+                 id="csharp" 
+                 type="checkbox" 
+                 name="languages" 
+                 value="C#"
+                 />
+                <label for="csharp">C#</label>
+                <br>
+                <input
+                 id="java" 
+                 type="checkbox" 
+                 name="languages" 
+                 value="Java"
+                 />
+                <label for="java">Java</label>
+                <br>
+                <input
+                 id="js" 
+                 type="checkbox" 
+                 name="languages" 
+                 value="Javascript"
+                 />
+                <label for="js">Javascript</label>
+            </div>
+            <br>
+            <label for="continent">select continent</label>
+            <select name="continent" id="continent">
+                <option value="Africa" selected>Africa</option>
+                <option value="Europe">Europe</option>
+                <optgroup label="America">
+                    <option value="North America">North America</option>
+                    <option value="South America">South America</option>
+                </optgroup>
+                <option value="Australlia">Australlia</option>
+                <option value="Asia">Asia</option>
+            </select>
+            <br>
+            <br>
+            <label for="introduction">Introduce your self</label>
+            <textarea name="introduction" id="introduction" cols="30" rows="10"></textarea>
+            <br>
+            <br>
+            <br>
+
+            <div id="games">
+                <label>Favourite game</label>
+                <input list="games" name="game">
+                <datalist id="games">
+                    <option value="ori and the blind forest">
+                    <option value="Undertale">
+                    <option value="Terraria">
+                    <option value="Farcry 3">
+                    <option value="Max Payne 2">
+                </datalist>
+            </div>
+            <br>
+            <input type="submit" value="Submit">
+            <input type="reset">
+       </form>
+       <br>
+       <hr>
+
+
+
+       <!------------------------------------------------------------------------------------------------------------>
+       
+    </body>
+</html>
